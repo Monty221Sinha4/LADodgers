@@ -2,10 +2,26 @@
 
 <html>
 <head>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.6.0.slim.min.js"></script>
+    <script src="~/Scripts/react/react-dom.js"></script>
+    <script src="~/Scripts/react/react.js"></script>
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <title>@ViewBag.LADodgers</title>
 </head>
 <body>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="~/Photos/Los-Angeles-Dodgers-Logo-1968-1971.png" width="200" height="200" />
+        </div>
+    </div>
+    <nav style="color:blue">
+        @Html.ActionLink("Home", "Home", "Home")
+        @Html.ActionLink("Gallery", "Gallery", "Home")
+        @Html.ActionLink("History", "History", "Home")
+        @Html.ActionLink("Clips", "Clips", "Home")
+    </nav>
     <div>
         @RenderBody()
     </div>
