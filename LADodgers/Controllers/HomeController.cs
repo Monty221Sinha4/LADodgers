@@ -13,5 +13,13 @@ namespace LADodgers.Controllers
         {
             return View();
         }
+        public ActionResult Gallery()
+        {
+            return View();
+        }
+        public ActionResult Cilps()
+        {
+            return View();
+        }
     }
 }
