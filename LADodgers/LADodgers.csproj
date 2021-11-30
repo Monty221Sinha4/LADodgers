@@ -173,6 +173,7 @@
     <Content Include="Views\Home\Home.cshtml" />
     <Content Include="Views\Home\Gallery.cshtml" />
     <Content Include="Views\Home\Cilps.cshtml" />
+    <Content Include="Views\Home\History.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
