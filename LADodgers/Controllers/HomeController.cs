@@ -17,11 +17,12 @@ namespace LADodgers.Controllers
         {
             return View();
         }
-        public ActionResult Cilps()
+        
+        public ActionResult History()
         {
             return View();
         }
-        public ActionResult History()
+        public ActionResult Clips()
         {
             return View();
         }
