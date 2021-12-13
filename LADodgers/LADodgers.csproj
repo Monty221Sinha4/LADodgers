@@ -105,6 +105,8 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Global.asax" />
+    <Content Include="Photos\AK S.jpg" />
+    <Content Include="Photos\Just ahs.jpg" />
     <Content Include="Photos\LA Dod f.jfif" />
     <Content Include="Photos\la doDG ER.jpg" />
     <Content Include="Photos\LOD SS.png" />
@@ -176,6 +178,7 @@
     <Content Include="Views\Home\Gallery.cshtml" />
     <Content Include="Views\Home\History.cshtml" />
     <Content Include="Views\Home\Clips.cshtml" />
+    <Content Include="Views\Home\Squad.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
